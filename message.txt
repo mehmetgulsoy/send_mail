@@ -1,0 +1,6 @@
+Sevgili ${PERSON_NAME}, 
+
+Bu test masajıdır. 
+ 
+
+Hayırlı Günler
