@@ -64,7 +64,7 @@ def send():
 
             # set up the SMTP server
             s = smtplib.SMTP_SSL(host='smtp.yandex.com.tr', port=465)
-            s.login('mehmet.gulsoy@kitayazilim.com', '31414819674')
+            s.login('abc@yandex.com.tr', 'XXXXX')
 
             # For each contact, send the email:
             for name, email in zip(names, emails):
@@ -108,14 +108,11 @@ company = {
     'ronesansteknik': {
         'mail': 'info@ronesansteknik.com.tr',
         'pass': 'ronesansteknik123456'
-    }
-}
+    },
+    'optimalmakina': {
+        'mail': 'info@optimalmakina.com.tr'
+    },
 
-company2 = {
-    'ronesansteknik': {
-        'mail': 'info@ronesansteknik.com.tr',
-        'pass': 'ronesansteknik123456'
-    }
 }
 
 
